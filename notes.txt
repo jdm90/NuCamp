@@ -1,0 +1,15 @@
+Bootstrap Overview:
+
+3 things you always need to create Bootstrap grid:
+Container, row, column
+
+Containers hold rows, rows hold columns
+All content (text and images) go inside columns
+
+Bootstrap containers are centered in the viewport by default
+
+.container-fluid stretches full width of container and changes fluidly every time you change browser size
+
+Bootstrap rows = 12 columns
+
+<div class="col col-md-6 col-lg-8">For responsive column sizing based on viewport</div>
