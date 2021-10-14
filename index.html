@@ -209,7 +209,7 @@
             </div>
             <div class="col">
                 <div class="media">
-                    <img src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrum Trail Thumbnail" class="d-flex mr-3 img-thumbnail">
+                    <img src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail Thumbnail" class="d-flex mr-3 img-thumbnail">
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
                         <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
@@ -282,22 +282,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
 
-    <script>
-        $(function() {
-            $(".carousel").carousel( { interval: 3000, pause: "false" } );
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselButton").children("i").removeClass("fa-pause");
-                    $("#carouselButton").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselButton").children("i").removeClass("fa-play");
-                    $("#carouselButton").children("i").addClass("fa-pause");
-                }
-            });
-        });
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
